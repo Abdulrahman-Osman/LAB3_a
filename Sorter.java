@@ -15,4 +15,7 @@ public class Sorter {
             array[i] = temp;
         }
     }
+    public void sort(int[] array) {
+        selectionSort(array);
+    }
 }
